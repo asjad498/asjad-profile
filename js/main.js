@@ -41,7 +41,10 @@
 	/*--/ Star Counter /--*/
 	$('.counter').counterUp({
 		delay: 15,
-		time: 2000
+		time: 2000,
+	// 	formatter: function(n) {
+	// 		return n.toFixed(1); // Force one decimal place
+	// }
 	});
 
 	/*--/ Star Scrolling nav /--*/
